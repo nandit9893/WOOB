@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <div className="h-full my-20 mx-auto sm:p-0 p-3 flex flex-col items-center justify-center">
-      <p className="sm:w-96 w-72 text-center rounded-xl font-semibold bg-gray-400 p-2 text-white my-1">Automate Barter Campaigns with AI for 7 days</p>
+      <p className="sm:w-96 w-72 text-center sm:text-xl text-xs rounded-xl font-semibold bg-gray-400 sm:p-2 p-1 text-white my-1">Automate Barter Campaigns with AI for 7 days</p>
       <p className="sm:text-6xl text-3xl sm:my-4 my-1 font-bold">Instantly Partner with Influencers for</p>
       <span ref={typedElement} className="sm:text-6xl text-3xl sm:my-4 my-1 font-bold text-blue-600 transition-opacity duration-700 opacity-0 keyframes fadeInOut" style={{ opacity: 1 }}>{currentTitle}</span>
       <div className="flex flex-col max-w-3xl my-5">

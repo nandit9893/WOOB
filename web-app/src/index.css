@@ -66,6 +66,14 @@
 }
 @media (max-width: 400px) {
   .body {
-    display: none; /* Hide the body on mobile devices */
+    display: none;
   }
+}
+.navbar {
+  transition: all 5s ease-in-out;
+}
+
+.navbar.show {
+  transform: translateY(0);
+  opacity: 1;
 }
