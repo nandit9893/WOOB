@@ -69,11 +69,11 @@
     display: none;
   }
 }
-.navbar {
-  transition: all 5s ease-in-out;
+.custom-scroll::-webkit-scrollbar {
+  display: none; 
 }
 
-.navbar.show {
-  transform: translateY(0);
-  opacity: 1;
+.custom-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
 }
