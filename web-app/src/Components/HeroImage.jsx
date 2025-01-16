@@ -5,7 +5,7 @@ import downward_icon from "../assets/downward_icon.png";
 
 const HeroImage = () => {
   return (
-    <div className="p-6 my-14 w-[700px] rounded-3xl h-96 relative transition-transform duration-300 hover:scale-110 cursor-pointer" style={{ background: "linear-gradient(190deg, rgb(0, 31, 255) 40%, rgb(210 187 196 / 52%) 90%)"}}>
+    <div className="p-6 my-14 sm:w-[700px] w-auto rounded-3xl sm:h-96 h-[450px] relative transition-transform duration-500 sm:hover:scale-110 hover:scale-75 cursor-pointer" style={{ background: "linear-gradient(190deg, rgb(0, 31, 255) 40%, rgb(210 187 196 / 52%) 90%)"}}>
       <div className="p-2 w-full h-full bg-[#bcbbd2] rounded-3xl">
         <div className="bg-white w-full h-full rounded-3xl p-2">
             <div className="flex items-center my-3 mx-4 gap-3">
@@ -33,7 +33,7 @@ const HeroImage = () => {
                 }
             </div>
         </div>
-        <div className="p-2 bg-[#bcbbd2] absolute h-80 z-20 rounded-3xl w-64 -top-10 -right-24">
+        <div className="hidden sm:block p-2 bg-[#bcbbd2] absolute h-80 z-20 rounded-3xl w-64 -top-10 -right-24">
             <div className="w-full h-full bg-white rounded-3xl p-4 relative">
                 <p className="text-lg font-semibold text-black">Influencer Details:</p>
                 <hr className="w-full h-1 my-2"/>
