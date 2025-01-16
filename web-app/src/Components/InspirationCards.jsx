@@ -61,7 +61,7 @@ const InspirationCards = () => {
                   {
                     activeVideo === item.videoID ?
                     (
-                      <iframe src={`https://www.youtube.com/embed/${activeVideo}?autoplay=1`} allow="autoplay; encrypted-media" allowFullScreen title="Active Video" className="w-48 h-52 rounded-xl"></iframe>
+                      <iframe src={`https://www.youtube.com/embed/${activeVideo}?autoplay=1`} allow="autoplay; encrypted-media" allowFullScreen title="Active Video" className="w-40 h-52 rounded-xl"></iframe>
                     )
                     :
                     (
