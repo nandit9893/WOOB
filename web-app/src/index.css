@@ -64,8 +64,8 @@
 .row img:not(:hover) {
   filter: brightness(0.5);
 }
-@media (max-width: 640px) {
+@media (max-width: 400px) {
   .body {
-    display: none;
+    display: none; /* Hide the body on mobile devices */
   }
 }
