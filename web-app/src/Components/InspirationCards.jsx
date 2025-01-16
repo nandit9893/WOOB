@@ -56,7 +56,7 @@ const InspirationCards = () => {
                 }
             </div>
         </div>
-        <div className="flex gap-4 my-5 overflow-x-hidden sm:hidden block">
+        <div className="flex gap-4 my-5 overflow-x-hidden sm:hidden">
           {
              inspirationCards.map((item) => (
               <div key={item._id} className="flex-shrink-0">

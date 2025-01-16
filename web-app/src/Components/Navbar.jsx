@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div>
       {
-        hamburgerState ? 
+        hamburgerState && window.innerWidth <= 400 ? 
         (
           <div className="flex flex-col">
             <div className="flex justify-between sm:px-20 px-5 sm:py-5 py-2 bg-white">
