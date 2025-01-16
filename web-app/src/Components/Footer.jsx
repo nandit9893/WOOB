@@ -4,18 +4,18 @@ import triangle from "../assets/triangle.avif";
 
 const Footer = () => {
   return (
-    <div className="my-2 flex flex-col items-center gap-4 justify-center mx-auto w-[90%] rounded-2xl p-20">
-      <div className="flex justify-between w-full items-center">
+    <div className="my-2 flex flex-col items-center gap-4 justify-center mx-auto w-[90%] rounded-2xl sm:p-20 p-5">
+      <div className="flex flex-col md:flex-row justify-between w-full items-center gap-5 sm:gap-0">
         <div className="flex flex-col gap-3">
           <p className="text-2xl font-semibold text-black">Join our newsletter</p>
           <p className="text-gray-600">support@wobb.ai</p>
         </div>
-        <div className="flex gap-5">
-          <input type="text" placeholder="Enter your email" className="w-2/3 outline-none border-[1px] p-2 px-2 border-gray-500 rounded-lg"/>
-          <button className="text-lg font-semibold text-white bg-blue-600 w-1/3 rounded-lg p-2">Subscribe</button>
+        <div className="flex flex-col sm:flex-row gap-5">
+          <input type="text" placeholder="Enter your email" className="w-full sm:w-2/3 outline-none border-[1px] p-2 px-2 border-gray-500 rounded-lg"/>
+          <button className="text-lg font-semibold text-white bg-blue-600 w-full sm:w-1/3 rounded-lg p-2">Subscribe</button>
         </div>
       </div>
-      <div className="flex gap-24 my-10 w-full">
+      <div className="flex flex-col sm:flex-row gap-24 my-10 w-full">
         <div className="w-1/4 flex gap-5 flex-col">
           <div className="flex gap-2 items-center">
             <img src={logo_1} alt="" className="w-14 h-11" />
@@ -26,8 +26,8 @@ const Footer = () => {
             <img className="w-16 h-16" src={triangle} alt="" />
           </div>
         </div>
-        <div className="w-3/4 flex justify-between gap-4">
-          <div className="flex flex-col gap-3 w-1/4">
+        <div className="w-3/4 flex flex-col sm:flex-row justify-between gap-4">
+          <div className="flex flex-col gap-3 sm:w-1/4 w-full">
             <p className="text-lg font-bold text-gray-600">Home</p>
             <p className="text-lg font-normal text-gray-600">Pricing</p>
             <p className="text-lg font-normal text-gray-600">Reviews</p>
@@ -35,20 +35,20 @@ const Footer = () => {
             <p className="text-lg font-normal text-gray-600">Influencer Discovery</p>
             <p className="text-lg font-normal text-gray-600">FAQs</p>
           </div>
-          <div className="flex flex-col gap-3 w-1/4">
+          <div className="flex flex-col gap-3 sm:w-1/4 w-full">
             <p className="text-lg font-bold text-gray-600">Resources</p>
             <p className="text-lg font-normal text-gray-600">Blog</p>
             <p className="text-lg font-normal text-gray-600">Customer Stories</p>
             <p className="text-lg font-normal text-gray-600">Help Centre</p>
             <p className="text-lg font-normal text-gray-600">Become an Affiliate</p>
           </div>
-          <div className="flex flex-col gap-3 w-1/4">
+          <div className="flex flex-col gap-3 sm:w-1/4 w-full">
             <p className="text-lg font-bold text-gray-600">Tools</p>
             <p className="text-lg font-normal text-gray-600">Fake Followers Checker</p>
             <p className="text-lg font-normal text-gray-600">Engagement Rate Checker</p>
             <p className="text-lg font-normal text-gray-600">Influencer Profile Analytics</p>
           </div>
-          <div className="flex flex-col gap-3 w-1/4">
+          <div className="flex flex-col gap-3 sm:w-1/4 w-full">
             <p className="text-lg font-bold text-gray-600">How We Compare</p>
             <p className="text-lg font-normal text-gray-600">Upfluence vs. Wobb</p>
             <p className="text-lg font-normal text-gray-600">Modash vs. Wobb</p>
@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="w-full h-[2px]" />
-      <div className="flex justify-between w-full">
+      <div className="flex flex-col-reverse sm:flex-row justify-between w-full sm:gap-0 gap-10">
         <div className="flex gap-3">
           <p className="text-lg font-medium text-gray-500">© 2024 Wobb</p>
           <p className="text-lg font-medium text-gray-500">Terms</p>

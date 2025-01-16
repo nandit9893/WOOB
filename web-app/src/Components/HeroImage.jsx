@@ -41,41 +41,41 @@ const HeroImage = () => {
                 <hr className="w-full h-[4px] bg-gray-200 my-2"/>
                 <hr className="w-full h-[4px] bg-gray-200 my-2"/>
                 <div className="flex gap-2">
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-gray-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[95px] bg-gray-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-blue-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[90px] bg-blue-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-green-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[85px] bg-green-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-red-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[80px] bg-red-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-orange-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[75px] bg-orange-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-teal-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[70px] bg-teal-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-indigo-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[65px] bg-indigo-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-blue-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[60px] bg-blue-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-gray-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[55px] bg-gray-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-blue-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[50px] bg-blue-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
-                    <div className="w-3 h-[90px] bg-white">
-                        <div className="w-full h-[85px] bg-teal-300"></div>
+                    <div className="w-3 h-[90px] bg-white relative">
+                        <div className="w-full h-[45px] bg-teal-300 absolute bottom-0 rounded-t-lg"></div>
                     </div>
                 </div>
-                <hr className="w-52 h-[2px] bg-gray-200 absolute top-52"/>
+                <hr className="w-52 h-[2px] bg-gray-400 absolute top-52"/>
                 <div className="flex flex-col my-3">
                     <p>Influencers Lookalike</p>
                     <div className="flex gap-2 items-center justify-center">

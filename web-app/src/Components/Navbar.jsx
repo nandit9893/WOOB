@@ -1,6 +1,5 @@
 import React from "react";
 import logo_1 from "../assets/logo_1.png";
-import logo_2 from "../assets/logo_2.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +7,7 @@ const Navbar = () => {
       <div className="flex items-center gap-10">
         <div className="flex items-center gap-1">
           <img className="w-10 h-10" src={logo_1} alt="" />
-          <img className="w-auto h-5" src={logo_2} alt="" />
+          <h2 className="text-2xl text-blue-950 font-bold">Wobb</h2>
         </div>
         <div className="flex items-center gap-10">
           <p className="text-lg font-semibold text-black">Home</p>
