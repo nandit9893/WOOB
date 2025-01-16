@@ -14,7 +14,7 @@ const HeroImage = () => {
             </div>
             <hr className="w-full h-1"/>
             <div className="flex items-center justify-start gap-3 p-4">
-                <p className="text-lg font-semibold">Showing 1.30M Profiles</p>
+                <p className="sm:text-lg text-xs font-semibold">Showing 1.30M Profiles</p>
                 <div className="flex gap-1">
                     <p>✅</p>
                     <p className="text-gray-600 font-semibold">Select</p>
