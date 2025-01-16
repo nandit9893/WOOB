@@ -16,8 +16,8 @@ const InspirationCards = () => {
     
 
   return (
-    <div className="flex flex-col mt-96 h-[100vh]">
-      <p className="mt-10 text-5xl font-bold mx-auto flex flex-col items-center justify-center">Just Some Examples to Get{" "}</p>
+    <div className="flex flex-col sm:mt-96 mt-10 h-[100vh] sm:p-0 p-3">
+      <p className="mt-10 sm:text-5xl text-2xl font-bold mx-auto flex flex-col items-center justify-center">Just Some Examples to Get{" "}</p>
       <p className="mb-10 text-5xl font-bold mx-auto flex flex-col items-center justify-center">You Inspired!</p>
       <div className="flex justify-between mx-40">
       {
