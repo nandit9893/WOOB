@@ -7,7 +7,7 @@ const CompaniesTrust = () => {
 
   return (
     <div className="my-28">
-      <div className="h-full my-20 mx-auto flex flex-col items-center justify-center">
+      <div className="h-full my-20 sm:mx-auto mx-2 flex flex-col items-center justify-center">
         <p className="text-xl font-semibold text-gray-500">Trusted by 5000 Agencies and D2C Companies</p>
       </div>
       <div className="overflow-hidden">
