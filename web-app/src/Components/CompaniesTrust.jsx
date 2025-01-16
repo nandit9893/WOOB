@@ -21,9 +21,9 @@ const CompaniesTrust = () => {
             }
         </div>
       </div>
-      <div className="h-full my-20 mx-auto flex flex-col items-center justify-center bg-slate-100 p-20">
-        <div className="flex justify-between">
-            <div className="w-1/3">
+      <div className="h-full my-20 mx-auto flex flex-col items-center justify-center bg-slate-100 sm:p-20 p-5">
+          <div className="flex flex-col sm:flex-row justify-between gap-5 sm:gap-0">
+            <div className="sm:w-1/3 w-full">
                 <div className="flex justify-between gap-2">
                     <img className="w-10 h-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl01OQiuFdLQXORBls3xWwY6JtyY_N6WyV3w&s" alt="" />
                     <div className="flex flex-col gap-1">
@@ -32,7 +32,7 @@ const CompaniesTrust = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-1/3">
+            <div className="sm:w-1/3 w-full">
                 <div className="flex justify-between gap-2">
                     <img className="w-10 h-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl01OQiuFdLQXORBls3xWwY6JtyY_N6WyV3w&s" alt="" />
                     <div className="flex flex-col gap-1">
@@ -41,7 +41,7 @@ const CompaniesTrust = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-1/3">
+            <div className="sm:w-1/3 w-full">
                 <div className="flex justify-between gap-2">
                     <img className="w-10 h-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl01OQiuFdLQXORBls3xWwY6JtyY_N6WyV3w&s" alt="" />
                     <div className="flex flex-col gap-1">
